@@ -46,7 +46,7 @@
 
 #include "globals.hh"
 
-#include "g4root.hh"
+#include "G4RootAnalysisManager.hh"
 //#include "g4xml.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

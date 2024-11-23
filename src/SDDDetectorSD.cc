@@ -51,7 +51,7 @@
 #include "G4EventManager.hh"
 #include "SDDHistoManager.hh"
 #include "G4UnitsTable.hh"
-
+#include "G4AnalysisManager.hh"
 SDDDetectorSD::SDDDetectorSD(G4String name, SDDDetectorConstruction* detCon)
     : G4VSensitiveDetector(name),
       HitsColl(0),

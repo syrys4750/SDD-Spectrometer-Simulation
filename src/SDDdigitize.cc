@@ -49,7 +49,7 @@
 #include "G4SystemOfUnits.hh"
 #include "SDDHistoManager.hh"
 #include "stdio.h"
-
+#include "G4AnalysisManager.hh"
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo....
 
 SDDdigitize::SDDdigitize(G4String name)

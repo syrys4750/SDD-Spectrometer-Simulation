@@ -51,7 +51,7 @@
 #include "G4PhysicalConstants.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4UnitsTable.hh"
-
+#include "G4AnalysisManager.hh"
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 SDDSteppingAction::SDDSteppingAction(SDDEventAction* eventAction)

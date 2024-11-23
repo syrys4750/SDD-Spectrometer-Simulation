@@ -47,7 +47,7 @@
 #include "G4PhysicalConstants.hh"
 #include "SDDDetectorConstruction.hh"
 #include "G4RunManager.hh"
-
+#include "G4AnalysisManager.hh"
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 SDDHistoManager::SDDHistoManager()

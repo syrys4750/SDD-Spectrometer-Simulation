@@ -54,7 +54,7 @@
 #include "G4SystemOfUnits.hh"
 #include "G4Timer.hh"
 #include <iomanip>
-
+#include "G4AnalysisManager.hh"
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 SDDRunAction::SDDRunAction()
@@ -125,7 +125,7 @@ void SDDRunAction::BeginOfRunAction(const G4Run* run)
     G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
     if ( analysisManager->IsActive() )
     {
-        analysisManager->OpenFile();
+        analysisManager->OpenFile("SDD.root");
     }
 
 }
